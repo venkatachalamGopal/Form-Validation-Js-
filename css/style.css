@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    align-items: center;
+    
+}
+
+.form-container{
+    width: 500px;
+    height: 550px;
+    margin-top: 15px;
+    background-color: rgb(231, 147, 147);
+}
+form{
+    padding: 10px;
+}
+form h3{
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: darkcyan;
+    font-weight: 600;
+}
+.form-group{
+    margin-bottom: 20px;
+    padding: 3px;
+
+}
+.form-group label{
+    display: block;
+    margin-bottom: 6px;
+    
+}
+.form-group input{
+   width: 100%;
+   padding: 7px;
+   outline: none;
+   border-radius: 3px;
+   border: 2px solid gray;
+
+}
+.form-group p{
+   margin-top: 5px;
+   font-size: 13px;
+   visibility: hidden;
+   
+
+}
+form button{
+   width: 100%;
+   padding: 4px;
+   text-transform: uppercase;
+   font-weight: 700;
+   border-radius: 3px;
+   background-color: darkcyan;
+   color: whitesmoke;
+}
+form button:hover{
+    background-color: rgb(104, 104, 223);
+    color: aliceblue;
+}
+
+/* Error Class Message Show*/
+
+.error p{
+    color: red;
+    font-weight: 600;
+    visibility: visible;
+
+}
+.error input{
+    border:2px solid red;
+}
+
+/* Sucess Class Message Show */
+.success input{
+    border:2px solid green;
+}
+
+/*  Eye icon */
+.form-group{
+    position: relative;
+    /* border: 2px solid red; */
+
+}
+.passwordShow{
+    position: relative;
+    right: 0px;
+    top:-25px;
+    bottom:10px;
+    left: 445px;
+
+}
